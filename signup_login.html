@@ -1,0 +1,58 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Cart - Aurora Finds</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+     <section class="auth-section">
+        <div class="auth-container">
+          <input type="radio" id="signup-radio" name="auth-toggle" checked>
+          <input type="radio" id="login-radio" name="auth-toggle">
+          <div class="auth-form" id="signup-form">
+            <h2>Create an Account</h2>
+            <form action="#" method="POST">
+              <input type="text" name="username" placeholder="Username" required>
+              <input type="email" name="email" placeholder="Email" required>
+              <input type="password" name="password" placeholder="Password" required>
+              <input type="password" name="confirm-password" placeholder="Confirm Password" required>
+              <button type="submit">Sign Up</button>
+            </form>
+            <p>Or sign up with:</p>
+            <div class="social-login">
+              <a href="#" class="google-login">
+                <i class="bx bxl-google bx-md"></i> Google
+              </a>
+              <a href="#" class="facebook-login">
+                <i class="bx bxl-facebook bx-md"></i> Facebook
+              </a>
+            </div>
+            <p>Already have an account? <label for="login-radio">Login here</label></p>
+          </div>
+          <div class="auth-form" id="login-form">
+            <h2>Login to Your Account</h2>
+            <form action="#" method="POST">
+              <input type="email" name="email" placeholder="Email" required>
+              <input type="password" name="password" placeholder="Password" required>
+              <button type="submit">Login</button>
+            </form>
+            <p>Or login with:</p>
+            <div class="social-login">
+              <a href="#" class="google-login">
+                <i class="bx bxl-google bx-md"></i> Google
+              </a>
+              <a href="#" class="facebook-login">
+                <i class="bx bxl-facebook bx-md"></i> Facebook
+              </a>
+            </div>
+            <p>Don't have an account? <label for="signup-radio">Sign up here</label></p>
+          </div>
+        </div>
+      </section>
+    <footer>
+        <div class="footer-content">&copy; Copyright 2024 - Aurora Finds</div>
+    </footer>
+</body>
+</html>
